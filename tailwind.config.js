@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: ["Epilogue", "sans-serif"],
+      },
+      colors:{
+        lightCoffee:"#c89f94"
+      }
+    },
   },
   plugins: [],
 };
