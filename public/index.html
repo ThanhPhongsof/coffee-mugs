@@ -4,13 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />    
+    <link href="./output.css" type="text/css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
     <div class="root">
-      <div class="content-wrapper max-">
-        <header>header</header>
+      <div class="mx-auto text-base content-wrapper max-w-screen-2xl bg-slate-200">
+        <header class="py-6 mx-10">
+          <nav class="flex flex-row items-center justify-between">
+            <div class="text-xl font-semibold text-center cursor-pointer logo basis-2/6">CoffeeStyle.</div>
+            
+            <ul class="flex items-center justify-end gap-8 text-sm font-medium text-gray-500 uppercase basis-3/6">
+              <li class="ct-top-menu-item">
+                <a href="#" class="">home</a>
+              </li>
+              <li class="ct-top-menu-item">
+                <a href="#" class="">products</a>
+              </li>
+              <li class="ct-top-menu-item">
+                <a href="#" class="">blog</a>
+              </li>
+              <li class="ct-top-menu-item">
+                <a href="#" class="">about</a>
+              </li>
+              <li class="ct-top-menu-item">
+                <a href="#" class="">contact</a>
+              </li>
+              <li class="ct-top-menu-item">
+                <a href="#" class="">styleguide</a>
+              </li>
+            </ul>
+            
+            <ul class="flex items-center justify-start ml-16 text-sm font-medium uppercase basis-1/6 fext-gray-500">
+              <li class="ct-top-menu-item">
+                <a href="#" class="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ct-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                  </svg>
+                  <span class="mx-2">Cart</span>
+                  <span class="text-white bg-orange-400 ct-badge-circle">0</span>
+               </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
         <main>
           <div class="slider">slider</div>
           <div class="story">story</div>
