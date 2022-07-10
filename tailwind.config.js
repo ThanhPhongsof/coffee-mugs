@@ -4,11 +4,20 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Epilogue", "sans-serif"],
+        Karla: ["Karla", "sans-serif"],
       },
-      colors:{
-        lightCoffee:"#c89f94"
-      }
+      colors: {
+        lightCoffee: "#c89f94",
+      },
+      keyframes: {
+        slideDown: {
+          "0%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        slideDown: "slideDown 0.4s ease-in-out",
+      },
     },
   },
   plugins: [],
