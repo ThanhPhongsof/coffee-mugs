@@ -43,5 +43,5 @@
 }
 
 .ct-subheadline-deco-label {
-  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-sm;
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-sm text-center;
 }
