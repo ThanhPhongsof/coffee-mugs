@@ -15,11 +15,11 @@
 
 /* ct = custom */
 .ct-top-menu-item {
-  @apply relative py-1 cursor-pointer hover:text-gray-800 after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-lightCoffee after:lg:h-0.5 hover:after:lg:w-full after:lg:w-0 after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
+  @apply relative py-1 cursor-pointer hover:text-gray-800 after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-0.5 hover:after:lg:w-full after:lg:w-0 after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
 }
 
 .ct-top-menu-item-active {
-@apply text-gray-800;
+  @apply text-gray-800;
 }
 
 .ct-icon {
@@ -32,4 +32,16 @@
 
 .ct-topmenu-expanded {
   @apply absolute top-10 z-50 bg-white text-center w-full animate-slideDown;
+}
+
+.ct-subheadline {
+  @apply flex justify-center items-center mb-24;
+}
+
+.ct-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-200;
+}
+
+.ct-subheadline-deco-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-sm;
 }
