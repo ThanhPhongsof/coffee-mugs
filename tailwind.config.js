@@ -19,12 +19,19 @@ module.exports = {
           "0%": { transform: "translateY(-100%)" },
           "100%": { transform: "translateY(0)" },
         },
+        fadeIn: {
+          from: { opacity: 0 },
+          to: { opacity: 1 },
+        },
       },
       animation: {
-        slideDown: "slideDown 0.4s ease-in-out",
+        slideDown: "slideDown 0.5s ease-in-out",
+        fadeIn: "fadeIn 1s ease-in-out",
       },
       backgroundImage: {
         "slider-bg": 'url("./img/slider-bg.jpg")',
+        "featured-mugs-1-bg": 'url("./img/featured-mugs-1.jpg")',
+        "featured-mugs-2-bg": 'url("./img/featured-mugs-2.jpg")',
       },
     },
   },
