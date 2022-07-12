@@ -3,6 +3,10 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      screens: {
+        xs: "480px",
+        sl: "1279px",
+      },
       fontFamily: {
         Karla: ["Karla", "sans-serif"],
       },
@@ -41,6 +45,9 @@ module.exports = {
         "more-proudcts-7-bg": 'url("./img/more-proudcts-7.jpg")',
         "more-proudcts-8-bg": 'url("./img/more-proudcts-8.jpg")',
         "more-proudcts-9-bg": 'url("./img/more-proudcts-9.jpg")',
+        "magazine-image-1-bg": 'url("./img/magazine-image-1.jpg")',
+        "magazine-image-2-bg": 'url("./img/magazine-image-2.jpg")',
+        "magazine-image-3-bg": 'url("./img/magazine-image-3.jpg")',
       },
     },
   },
