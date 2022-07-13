@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
+    screens: {
+      xs: "480px",
+      sl: "1279px",
+      ...defaultTheme.screens,
+    },
     extend: {
-      screens: {
-        xs: "480px",
-        sl: "1279px",
-      },
       fontFamily: {
         Karla: ["Karla", "sans-serif"],
       },
@@ -48,6 +50,7 @@ module.exports = {
         "magazine-image-1-bg": 'url("./img/magazine-image-1.jpg")',
         "magazine-image-2-bg": 'url("./img/magazine-image-2.jpg")',
         "magazine-image-3-bg": 'url("./img/magazine-image-3.jpg")',
+        parallax_bg: 'url("./img/parallax_bg.jpg")',
       },
     },
   },
