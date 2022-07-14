@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
+  html {
+    @apply overflow-x-hidden;
+  }
   body {
     @apply font-Karla text-base font-normal mx-auto max-w-screen-2xl;
     text-rendering: optimizeLegibility;
